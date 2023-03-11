@@ -1,0 +1,23 @@
+{
+	"name":"Name To Words",
+	"short_name":"NameToWords",
+	"start_url":"index.html",
+	"display":"standalone",
+	"background_color":"#000000",
+	"theme_color":"black",
+	"scope": ".",
+	"description":"Third One",
+	"icons":[
+	{
+	"src":"images/hw.png",					
+	"sizes":"192x192",
+	"type":"image/png"
+	},
+	{
+	"src":"images/icon.png",
+	"sizes":"512x512",
+	"type":"image/png"
+	}
+]
+}
+

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Name to Words</title>
+    <link rel="manifest" href="manifest.json">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Name to Words</h1>
+	<div class="container">
+		<label for="name">Enter your name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name...">
+		<button onclick="generateWords()">Generate Words</button>
+		<table id="resultTable">
+			<thead>
+				<tr>
+					<th>#</th>
+					<th>Generated Word</th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+		<div class="result" id="totalWords"></div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
