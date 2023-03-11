@@ -16,4 +16,4 @@ function generateWords() {
 		cell1.innerHTML = i + 1;
 		cell2.innerHTML = uniqueWords[i];
 		if (i % 2 === 0) {
-			row.style.backgroundColor = "#f2f2
+			row.style.backgroundColor = "#f2f2f2"
